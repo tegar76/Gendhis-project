@@ -25,7 +25,7 @@
             <link rel="stylesheet" href="assets/css/themify-icons.css">
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
-            <link rel="stylesheet" href="assets/css/styles.css">
+            <link rel="stylesheet" href="assets/css/stylesss.css">
             <link rel="stylesheet" href="assets/css/responsive.css">
 
             <!-- Accordion -->
@@ -180,7 +180,7 @@
                                         <p class="about-pera1 mb-25">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis minima nostrum, autem ea consectetur molestiae odio reprehenderit nulla, obcaecati labore incidunt, repellat eum reiciendis. Deserunt recusandae possimus facere voluptas dolorum, expedita nihil laudantium cum vitae maxime quae unde praesentium numquam iure perspiciatis dicta velit sint, quo at? Commodi, velit.
                                         </p>
-                                        <img class="mr-3" src="assets/img/img_content/example-word.png" alt="">
+                                        <img class="mb-3" src="assets/img/img_content/example-word.png" alt="">
                                         <p class="about-pera1 mb-25">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis minima nostrum, autem ea consectetur molestiae odio reprehenderit nulla, obcaecati labore incidunt, repellat eum reiciendis. Deserunt recusandae possimus facere voluptas dolorum, expedita nihil laudantium cum vitae maxime quae unde praesentium numquam iure perspiciatis dicta velit sint, quo at? Commodi, velit.
                                         </p>
@@ -223,12 +223,14 @@
                                             <form action="">
                                                 <label for="nama">Nama : </label>
                                                 <input type="text" name="nama" id="nama" class="form-control mb-3">
+                                                <label for="email">Email : </label>
+                                                <input type="email" name="email" id="email" class="form-control mb-3">
                                                 <label for="komentar">Komentar : </label>
                                                 <textarea name="komentar" id="komentar" class="form-control"></textarea>
                                                 <button type="submit" class="btn-lg btn-info my-3 border-0">Kirim</button>
                                             </form>
                                         </div>
-                                       <section class="comment">
+                                       <section class="comment mt-3">
                                             <div class="list-comment pb-3">
                                                <div class="comment">
                                                 <div class="card h-25">
@@ -236,13 +238,13 @@
                                                         <div class="userscomment--image"><img src="assets/img/photo_author/penulis1.png" alt="" /></div>
                                                         <div class="userscomment--content">
                                                             <div class="userscomment--title d-flex align-items-sm-start">
-                                                            <div class="userscomment--username mr-1">User 1</div>
-                                                            <div class="userscomment--on">Posted on 2022-03-03 02:51:34</div>
+                                                                <div class="userscomment--username mr-1">User 1</div>
+                                                                <div class="userscomment--on">Posted on 2022-03-03 02:51:34</div>
                                                             </div>
                                                             <div class="userscomment--body d-flex justify-content-between">
                                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a, accusantium rem nisi error numquam libero Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, repellendus voluptatum? Corrupti dignissimos sequi modi laudantium rem maxime error quos! Repudiandae, tenetur! Beatae suscipit reprehenderit quae dicta deleniti voluptate corporis. </p>
-                                                                <div class="btn-reply">
-                                                                    <a href="" class="btn-reply">Balas</a>
+                                                                <div class="btn-warning h-25 rounded px-1 py-1">
+                                                                    <a href="" class="btn-sm btn-warning border-0 text-white px-3 py-2">Balas</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -279,8 +281,8 @@
                                                             </div>
                                                             <div class="userscomment--body d-flex justify-content-between">
                                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a, accusantium rem nisi error numquam libero Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, repellendus voluptatum? Corrupti dignissimos sequi modi laudantium rem maxime error quos! Repudiandae, tenetur! Beatae suscipit reprehenderit quae dicta deleniti voluptate corporis. </p>
-                                                                <div class="btn-reply">
-                                                                    <a href="" class="btn-reply">Balas</a>
+                                                                <div class="btn-warning h-25 rounded px-1 py-1">
+                                                                    <a href="" class="btn-sm btn-warning border-0 text-white px-3 py-2">Balas</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -300,10 +302,10 @@
                         <div class="col-lg-4">
                             <!-- Space -->
     
-                            <div class="section-tittle ml-3">
-                                <h4>Tutorial Terkait</h4>
+                            <div class="tutorial-terkait-tittle ml-2">
+                                <h5>Tutorial Terkait</h5>
                             </div> 
-                            <div class="content-title">
+                            <div class="tutorial-terkait-list-title">
                                 <table class="table">
                                 
                                     <tbody>
@@ -323,94 +325,182 @@
                                         <td><h6><a href="">#5.Cara Membuka Microsoft Word File 2017</a></h6></td></td>
                                     </tr>
                                     <tr>
-                                        <td><h6><a href="categori.html">Selengkapnya   <i class="fas fa-angle-double-right"></i></a></h6></td>
+                                        <td><h6 class="font-weight-normal ml-2"><a href="categori.html">Selengkapnya   <i class="fas fa-angle-double-right"></i></a></h6></td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                             
                             <div class="accordion" id="accordionExample">
-                                <div class="card p-2">
-                                    <!-- Bab 1 Looping disini -->
+                                <div class="card border p-2">
+                                    <div class="pelajari-juga-tittle ml-2 py-3">
+                                        <h5>Pelajari Juga</h5>
+                                    </div> 
+                                    <!-- Kategori Looping disini -->
+                                    <!-- kategori 1 -->
                                     <div class="section">
-                                        <div class="card-header mb-3" id="heading">
+                                        <div class="card-header" id="heading">
                                             <div class="clearfix mb-0">
-                                                <a class="btn btn-link collapsed" data-toggle="collapse"
+                                                <a class=" collapsed" data-toggle="collapse"
                                                     data-target="#msOffice" aria-expanded="false"
                                                     aria-controls="msOffice">
-                                                    <h4>Tugas BAB I - Latihan 1 - 12-11-2021</h4>
-                                                    <small class="text-danger"> Deadline :
-                                                        12-10-2021</small>
+                                                   <div class="title-kategori d-flex justify-content-between">
+                                                    <h6>Microsoft Office</h6>   
                                                     <i class="material-icons">add</i>
+                                                   </div>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div id="msOffice" class="collapse show mb-4"
+                                        <!-- Janis Looping disini -->
+                                        <div id="msOffice" class="collapse show"
                                             aria-labelledby="heading"
                                             data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col-xs-6 col-sm-12 bg-gray-300">
-                                                        <div class="p-1">
-                                                            <h5 style="line-height: 25px;">Silahkan
-                                                                Kerjakan Tugas BAB I Unit I dengan
-                                                                ketentuan sebagai berikut : 1.Kumpulkan
-                                                                tugas dalam bentuk foto 2. jika file
-                                                                foto yang dikumpulkan lebih dari 1 maka
-                                                                gabungkan terlebih dahulu file-file
-                                                                tersebut dalam bentuk pdf</h5>
-                                                        </div>
-                                                        <div class="d-flex justify-content-center m-3">
-                                                            <a href="" class="btn btn-success"><i class="fa fa-download"></i> Unduh Latihan</a>
-                                                            &ensp;
-                                                            <a href="" data-toggle="modal"
-                                                                data-target="#kumpulkanTugas" class="btn btn-info"><i class="fa fa-upload"></i> Kumpulkan Latihan</a>
-                                                        </div>
+                                            <div class="card-body border p-0 py-2">
+                                                    <div class="title-jenis col-xs-6 col-sm-12">
+                                                        <!-- Jenis looping disini -->
+                                                      <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-word.png" alt=""> Microsoft Office Word</a>
+                                                        </h6>
+                                                      </div>
+                                                      <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-exel.png" alt=""> Microsoft Office Excel</a>
+                                                        </h6>
+                                                      </div>
+                                                      <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-powerpoint.png" alt=""> Microsoft Office Powerpoint</a>
+                                                        </h6>
+                                                      </div>
+                                                        
                                                     </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- kategori 2 -->
                                     <div class="section">
-                                        <div class="card-header mb-3" id="heading">
+                                        <div class="card-header" id="heading">
                                             <div class="clearfix mb-0">
-                                                <a class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapse" aria-expanded="false"
-                                                    aria-controls="collapse">
-                                                    <h4>Tugas BAB I - Latihan 1 - 12-11-2021</h4>
-                                                    <small class="text-danger"> Deadline :
-                                                        12-10-2021</small>
+                                                <a class=" collapsed" data-toggle="collapse"
+                                                    data-target="#wpsOffice" aria-expanded="false"
+                                                    aria-controls="wpsOffice">
+                                                   <div class="title-kategori d-flex justify-content-between">
+                                                    <h6>WPS Office</h6>   
                                                     <i class="material-icons">add</i>
+                                                   </div>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div id="collapse" class="collapse show mb-4"
+                                        <!-- Janis Looping disini -->
+                                        <div id="wpsOffice" class="collapse show"
                                             aria-labelledby="heading"
                                             data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col-xs-6 col-sm-12 bg-gray-300">
-                                                        <div class="p-1">
-                                                            <h5 style="line-height: 25px;">Silahkan
-                                                                Kerjakan Tugas BAB I Unit I dengan
-                                                                ketentuan sebagai berikut : 1.Kumpulkan
-                                                                tugas dalam bentuk foto 2. jika file
-                                                                foto yang dikumpulkan lebih dari 1 maka
-                                                                gabungkan terlebih dahulu file-file
-                                                                tersebut dalam bentuk pdf</h5>
-                                                        </div>
-                                                        <div class="d-flex justify-content-center m-3">
-                                                            <a href="" class="btn btn-success"><i class="fa fa-download"></i> Unduh Latihan</a>
-                                                            &ensp;
-                                                            <a href="" data-toggle="modal"
-                                                                data-target="#kumpulkanTugas" class="btn btn-info"><i class="fa fa-upload"></i> Kumpulkan Latihan</a>
-                                                        </div>
+                                            <div class="card-body border p-0 py-2">
+                                                    <div class="title-jenis col-xs-6 col-sm-12">
+                                                        <!-- Jenis looping disini -->
+                                                      <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-word.png" alt=""> WPS Office Writter</a>
+                                                        </h6>
+                                                      </div>
+                                                      <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-exel.png" alt=""> WPS Office Spreadsheet</a>
+                                                        </h6>
+                                                      </div>
+                                                      <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-powerpoint.png" alt=""> WPS Office Presentation</a>
+                                                        </h6>
+                                                      </div>
+                                                        
                                                     </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                  
+                                    <!-- kategori 3 -->
+                                    <div class="section">
+                                        <div class="card-header" id="heading">
+                                            <div class="clearfix mb-0">
+                                                <a class=" collapsed" data-toggle="collapse"
+                                                    data-target="#webDevelopment" aria-expanded="false"
+                                                    aria-controls="webDevelopment">
+                                                   <div class="title-kategori d-flex justify-content-between">
+                                                    <h6>Web Development</h6>   
+                                                    <i class="material-icons">add</i>
+                                                   </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                       <!-- Jenis Looping disini -->
+                                        <div id="webDevelopment" class="collapse show"
+                                        aria-labelledby="heading"
+                                        data-parent="#accordionExample">
+                                            <div class="card-body border p-0 py-2">
+                                                    <div class="title-jenis col-xs-6 col-sm-12">
+                                                        <!-- Jenis looping disini -->
+                                                    <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-word.png" alt=""> HTML</a>
+                                                        </h6>
+                                                    </div>
+                                                    <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-exel.png" alt=""> CSS</a>
+                                                        </h6>
+                                                    </div>
+                                                    <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-powerpoint.png" alt=""> JavaScript</a>
+                                                        </h6>
+                                                    </div>
+                                                    <div class="jenis">
+                                                        <h6>
+                                                            <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-powerpoint.png" alt=""> PHP</a>
+                                                        </h6>
+                                                    </div>
+                                                        
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <!-- kategori 4 -->
+                                    <div class="section">
+                                        <div class="card-header" id="heading">
+                                            <div class="clearfix mb-0">
+                                                <a class=" collapsed" data-toggle="collapse"
+                                                    data-target="#framework" aria-expanded="false"
+                                                    aria-controls="framework">
+                                                   <div class="title-kategori d-flex justify-content-between">
+                                                    <h6>Framework</h6>   
+                                                    <i class="material-icons">add</i>
+                                                   </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                       <!-- Jenis Looping disini -->
+                                        <div id="framework" class="collapse show"
+                                        aria-labelledby="heading"
+                                        data-parent="#accordionExample">
+                                            <div class="card-body border p-0 py-2">
+                                                    <div class="title-jenis col-xs-6 col-sm-12">
+                                                        <!-- Jenis looping disini -->
+                                                        <div class="jenis">
+                                                            <h6>
+                                                                <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-word.png" alt=""> Codeigniter 3</a>
+                                                            </h6>
+                                                        </div>
+                                                        <div class="jenis">
+                                                            <h6>
+                                                                <a href=""><img class="img-icon-content" src="assets/img/icon_konten/ms-exel.png" alt=""> Boostrap 4</a>
+                                                            </h6>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
 
                                  
                                 </div>
